@@ -31,6 +31,9 @@ body{
 .main-content{
     height: 90vh;
     background-color: #2a2a2a;
+    border-radius: 16px;
+    border: 1px solid #3a3a3a;
+    padding: 40px;
 }
 
 .profile{
@@ -102,4 +105,31 @@ body{
     height: 30px;
     width: 30px;
 }*/
+
+#navigation {
+    border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.active{
+    color: #FFBF00;
+}
+
+.active, nav a:hover{
+    color: #FFBF00;
+}
 
