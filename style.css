@@ -29,7 +29,6 @@ body{
 }
 
 .main-content{
-    height: 90vh;
     background-color: #2a2a2a;
     border-radius: 16px;
     border: 1px solid #3a3a3a;
@@ -153,4 +152,40 @@ nav a{
 
 #about{
     margin-bottom: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 33px;
+}
+
+.item{
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    text-align: center;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item img{
+    height: 48px;
+    width: 48px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+}
+
+.item h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3) ;
+}
+
+#education{
+
 }
