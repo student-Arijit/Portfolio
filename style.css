@@ -316,9 +316,9 @@ margin-top: 30px;
     }
 
     #navigation nav {
-        /* Adjust nav for smaller screens */
         justify-content: center;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .sidebar{
